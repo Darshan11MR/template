@@ -1,0 +1,121 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    margin: 0px auto;
+}
+header {
+    width: 98vw;
+    height: 130vh;
+    background-color: #fff;
+    margin: 0;
+    padding: 0;
+}
+.main_container {
+    width: 60vw;
+    border: 2px solid #cccccc;
+}
+.container {
+    background-color: #55bddd;
+    padding: 40px;
+}
+.header_section img {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.header_section h4 {
+    text-align: center;
+    font-size: 22px;
+    text-transform: uppercase;
+    letter-spacing: 10px;
+    font-family: 'Roboto',sans-serif;
+}
+.header_section h1 {
+    text-align: center;
+    font-size: 3rem;
+    font-family: 'Poppins',sans-serif;
+    font-weight: bolder;
+
+}
+.header_section span {
+    color: #fff;
+}
+.second_header_section {
+    /* width:60vw; */
+    padding: 40px;
+    /* border:1px solid #cccccc */
+}
+.second_header_section h3 {
+    font-size: 1.6rem;
+    font-family: 'Poppins',sans-serif;
+    margin: 20px 0px;
+}
+.second_header_section p {
+    text-align: justify;
+    font-weight: 600;
+    font-family: 'Roboto', sans-serif;
+}
+.third_header_section {
+    /*width: 60vw; */
+    padding: 0px 10px;
+    /* border : 1px solid #ccccc; */
+    display: grid;
+    grid-template-columns: repeat(auto-fill,minmax(300px,1fr));
+    grid-gap:10px;
+    align-items: stretch;
+    text-justify: stretch;
+}
+.third_header_section .first_img img{
+    width: 350px;
+    margin-left: 5%;
+    height: 200px;
+
+}
+.third_header_section .first_img p {
+    font-family: 'Roboto',sans-serif;
+    text-align: center;
+    padding: 10px;
+    font-weight: 600;
+}
+
+.third_header_section .second_img img{
+    width: 350px;
+    margin-left: 5%;
+    height: 200px;
+
+}
+.third_header_section .second_img p {
+    text-align: center;
+    padding: 10px;
+    font-weight: 600;
+    font-family: 'Roboto',sans-serif;
+    
+}
+.forth_header_section {
+    /*width:60vw;*/
+    padding: 40px;
+    /*border : 1px solid #cccccc; */
+    background-color: #ff3d41;
+    display: grid;
+    grid-template-columns: repeat(auto-fill,minmax(300px,2fr));
+}
+.forth_header_section .email_text P {
+    color: #fff;
+}
+.forth_header_section .social_icon {
+    font-size: 2.5rem;
+    color: #7c4142;
+}
+.forth_header_section .social_icon i {
+    margin: -10px;
+    border: 2px solid #7c4142;
+    padding: 10px;
+    border-radius: 50%;
+    width: 60px;
+    align-items: center;
+    margin-left: 10px;
+}
+
+
